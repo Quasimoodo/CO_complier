@@ -7,6 +7,6 @@ FROM openjdk:12-alpine
 COPY ./* /app/
 # 编译程序
 WORKDIR /app/
-RUN javac -d ./output ./c0test.java
+RUN javac -d ./output ./App.java
 # 将当前目录设为输出目录
 WORKDIR /app/output
