@@ -1,5 +1,7 @@
-package instruction;
+package compiler.instruction;
 
+
+import compiler.instruction.*;
 
 import java.util.Objects;
 
@@ -12,7 +14,7 @@ public class Instruction {
         this.x = 0;
     }
 
-    public Instruction(Operation opt, Integer x) {
+    public Instruction(Operation opt, Object x) {
         this.opt = opt;
         this.x = x;
     }

@@ -17,6 +17,10 @@ public enum Tokentype {
 
     IDENT,  //标识符
 
+    INT,
+    DOUBLE,
+    VOID,
+    BOOL,
     //字面量
     UINT_LITERAL,//无符号整数
     STRING_LITERAL,//字符串
@@ -51,6 +55,7 @@ public enum Tokentype {
 
     EOF,
     TYPE;
+
     public String toString()
     {
         return this.name();

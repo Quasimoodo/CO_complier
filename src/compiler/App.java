@@ -16,7 +16,7 @@ public class App
 
      //   try
        // {
-            Analyser analyser = new Analyser(tokenizer);
+            Analyzer analyser = new Analyzer(tokenizer);
             analyser.analyseProgram(args[1]);
 
         //}

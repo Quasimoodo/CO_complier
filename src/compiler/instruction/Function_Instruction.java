@@ -1,10 +1,9 @@
-package instruction;
+package compiler.instruction;
 
-package instruction;
 
 import java.util.ArrayList;
 
-public class FnInstruction {
+public class Function_Instruction {
     private int name;
     private int ret_slots;
     private int param_slots;
@@ -26,7 +25,7 @@ public class FnInstruction {
         return out;
     }
 
-    public FnInstruction() {
+    public Function_Instruction() {
         this.bodyItem = new ArrayList<Instruction>();
     }
 

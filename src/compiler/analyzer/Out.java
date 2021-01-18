@@ -2,8 +2,8 @@ package compiler.analyzer;
 
 
 //import instruction.Function_Instruction;
-import instruction.Instruction;
-import instruction.Operation;
+import compiler.instruction.*;
+
 
 import java.io.File;
 import java.io.FileOutputStream;

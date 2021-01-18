@@ -1,4 +1,4 @@
-package instruction;
+package compiler.instruction;
 
 public enum Operation {
     nop(0x00),
