@@ -1,4 +1,4 @@
-package compiler.tokenizer
+package compiler.tokenizer;
 
 
 import compiler.util.Pos;

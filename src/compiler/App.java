@@ -13,14 +13,14 @@ public class App
         Scanner sc = new Scanner(new File(args[0]));
         StringIter it = new StringIter(sc);
         Tokenizer tokenizer = new Tokenizer(it);
-      //  Objectfile obj=new 
-     //   Analyzer aer = new Analyzer(ter);
-    /*    try
-        {
-            aer.analyse();
 
-        }
-        */
-        throw new Exception();
+     //   try
+       // {
+            Analyser analyser = new Analyser(tokenizer);
+            analyser.analyseProgram(args[1]);
+
+        //}
+
+       // throw new Exception();
     }
 }
